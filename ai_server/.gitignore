@@ -1,0 +1,28 @@
+# Virtual environment
+Lib/
+Scripts/
+pyvenv.cfg
+Include/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Model / binary artifacts
+*.pkl
+
+# Generated / output data
+risk_assessment_results.csv
+filtered_data*.csv
+
+# Logs and temp files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Editor configs (optional)
+.vscode/
+.idea/
